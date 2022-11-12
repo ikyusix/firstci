@@ -2,6 +2,6 @@
 
 class Hello extends CI_Controller {
 	public function index () {
-		echo "hello test";
+		$this->load->view('sample_view');
 	}
 }
